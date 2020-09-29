@@ -4,22 +4,35 @@
     <meta charset="utf-8">
     <script src="https://kit.fontawesome.com/424f5dd976.js" crossorigin="anonymous"></script>
     <title> Kristina Z. Profile </title>
-    <meta name="description" content="Page of Kristina Z profile.">
-    <link rel ="stylesheet" href="style.css">
+    <meta name="description" content="Kristina's profile page.">
+    <link rel ="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class = "container"> 
-      <div class = "card">
-        <img src="../profile/images/profile.jpg" id = "logo" width="200px" alt="Kristina Zhizherina profile picture">
-        <h1>Hello, I am Kristina!</h1>
-        <br><br> <a href="">Learn about me here..</a>
-      </div>
-
+    <section class="banner-area" id="home">
+      <div class="container"> 
+        <div class = "row justify-content-start align-items-center">
+          <div class="col-lg-6 col-md-12 no-padding banner-right">
+            <img src="/images/profile-picture.png" class="img-fluid" alt="Kristina's profile picture">
+          </div>
+          <div class="col-lg-6 col-md-12 banner-left">
+            <h1 class="banner-text">
+              Hi, I'm  <br>
+              <span>Kristina Zhizherina</span> <br>
+              Junior Front End Developer
+            </h1>
+          </div> 
+        </div>
+      </div><!--#container-->
+    </section><!--#banner-area-->
+    
+    <section>
       <div class = "card">
         <h2>Skills</h2>
           <p>I am an inspired beginner in Front End development.</p>
       </div>
+    </section>
       <div class = "card">
         <h2>Hobbies</h2>
           <p>My passion is travelling.</p>
@@ -33,7 +46,6 @@
           <li><a href=""><i class="fab fa-instagram"></i></a></li>
         </ul>
       </div>
-    </div><!--#container-->
   </body>
 </html>
 <!-- end of file -->
