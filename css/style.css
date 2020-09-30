@@ -1,7 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap');
+@import 'banner.css';
+@import 'info.css';
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
   background-color: #faf3f3;
   text-align: center;
   font-weight: 300;
@@ -22,6 +24,7 @@ li {
 h1 {
   color: #848ccf;
   font-size: 30px;
+  font-family: "Poppins",  Arial, Helvetica, sans-serif;
 }
 
 h2 {
@@ -42,16 +45,7 @@ a:hover {
 
 .container {
   margin: 20px auto;
-  width: 60%;
-}
-
-.card {
-  background-color: white;
-  border: 1px dotted #be5683;
-  border-radius: 5%;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1); 
-  padding: 10px;
-  margin: 20px;
+  min-width: 60%;
 }
 
 #logo {
