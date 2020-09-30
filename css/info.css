@@ -1,0 +1,15 @@
+#info {
+  min-height: 100vh;
+  height: 100%;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  font-family: ;
+}
+
+.welcome-text {
+  margin-top: 45px;
+}
+
+.tools{
+  margin-top: 45px;
+}
