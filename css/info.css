@@ -2,14 +2,56 @@
   min-height: 100vh;
   height: 100%;
   margin: 0 auto;
-  background-color: whitesmoke;
-  font-family: ;
+  background-color: #f9f9ff; 
+}
+
+#info h2 {
+  font-weight: bolder;
 }
 
 .welcome-text {
   margin-top: 45px;
 }
 
-.tools{
-  margin-top: 45px;
+.tools {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 40px 16px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.skill-container {
+  width: 100%;
+  height: 25px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid hsl(0, 0%, 93%);
+  padding-right: 5px;
+  box-shadow: 0px 20px 20px 0px rgba(132, 144, 255, 0.2);
+}
+
+.skills {
+  border-radius: 10px;
+  text-align: right;
+  color: #24292E;
+  background: linear-gradient(to right, #848ccf, #8291FF);
+}
+
+.html, .css {
+  width: 80%;
+}
+
+.git {
+  width: 70%;
+}
+
+.js, .ruby {
+  width: 50%;
+}
+
+.tools p {
+  margin-top: 16px;
+  margin-bottom: 4px;
+  margin-left: 8px;
 }
