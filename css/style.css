@@ -2,8 +2,11 @@
 @import 'banner.css';
 @import 'info.css';
 
+* {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;;
+}
+
 body {
-  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
   background-color: #faf3f3;
   text-align: center;
   font-weight: 300;
@@ -24,7 +27,6 @@ li {
 h1 {
   color: #848ccf;
   font-size: 30px;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 h2 {
