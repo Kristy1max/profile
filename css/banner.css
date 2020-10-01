@@ -7,6 +7,7 @@
 
 .banner-area {
   display: flex;
+  padding-bottom: 56px;
 }
 
 .banner-left h1 span {
